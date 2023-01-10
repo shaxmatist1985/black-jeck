@@ -148,7 +148,6 @@ def main():
     while again != 'n':
         game.play()
         again = games.ask_yes_no('\nХотите сыграть еще раз?')
-        main()
     input('\n\nНажмите Enter, чтобы выйти.')
 main()
-input('\n\nНажмите Enter, чтобы выйти.')
+
